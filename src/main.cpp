@@ -19,19 +19,6 @@ using Tensor2 = utec::algebra::Tensor<Float, 2>;
 //semilla random
 mt19937_64 rng(time(nullptr));
 
-void guardar_csv(const vector<Example>& data, const string& filename) {
-    ofstream file(filename);
-    if (!file.is_open()) {
-        throw runtime_error("No se pudo crear CSV: " + filename);
-    }
-
-    for (const auto& e : data) {
-        for (size_t i = 0; i < e.x.size(); i++) {
-            file << e.x[i] << ",";
-        }
-        file << e.label << "\n";
-    }
-}
 
 double gauss(double s = 1.0) {
     static normal_distribution<double> dist(0.0, 1.0);
@@ -250,6 +237,20 @@ struct MLP {
         L3->update_params(opt);
     }
 };
+
+void guardar_csv(const vector<Example>& data, const string& filename) {
+    ofstream file(filename);
+    if (!file.is_open()) {
+        throw runtime_error("No se pudo crear CSV: " + filename);
+    }
+
+    for (const auto& e : data) {
+        for (size_t i = 0; i < e.x.size(); i++) {
+            file << e.x[i] << ",";
+        }
+        file << e.label << "\n";
+    }
+}
 
 int main() {
     int N = 32;
