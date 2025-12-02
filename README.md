@@ -44,8 +44,8 @@
 3. **Instalación**:
 
 ```bash
-# Clonamos el branch "feat/shape-classifier" del repositorio principal
-git clone -b feat/shape-classifier https://github.com/CS1103/proyecto-final-2025-2-breaking-code
+# Clonamos el branch "intento-final" del repositorio principal
+git clone -b intento-final https://github.com/CS1103/proyecto-final-2025-2-breaking-code
 ```
 ---
 
@@ -156,16 +156,24 @@ Las redes neuronales artificiales surgieron en 1943 con el modelo de neurona pro
 #### 2.1 Arquitectura de la solución
 
 * **Patrones de diseño**: ejemplo: Factory para capas, Strategy para optimizadores.
-* **Estructura de carpetas (ejemplo)**:
+* **Estructura de carpetas**:
 
   ```
-  proyecto-final/
+  proyecto-final-2025-2-breaking-code/
+  ├── activations/
+  │   └── nn_activation.h
+  ├── include/
+  │   └── neural_network.h
+  ├── layers/
+  │   ├── nn_dense.h
+  │   ├── nn_interfaces.h
+  │   ├── nn_loss.h
+  │   └── nn_optimizer.h
   ├── src/
-  │   ├── layers/
-  │   ├── optimizers/
   │   └── main.cpp
-  ├── tests/
-  └── docs/
+  ├── tensor/
+  │   └── tensor.h
+  └── README.md
   ```
 
 #### 2.2 Manual de uso y casos de prueba
