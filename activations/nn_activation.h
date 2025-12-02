@@ -1,7 +1,7 @@
 #ifndef UTEC_NN_ACTIVATION_H
 #define UTEC_NN_ACTIVATION_H
 
-#include "nn_interfaces.h"
+#include "../layers/nn_interfaces.h"
 #include <cmath>
 using utec::algebra::Tensor;
 namespace utec::neural_network {

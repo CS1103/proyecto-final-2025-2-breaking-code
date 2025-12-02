@@ -1,14 +1,14 @@
 #ifndef UTEC_NN_NEURAL_NETWORK_H
 #define UTEC_NN_NEURAL_NETWORK_H
 
-#include "nn_interfaces.h"
+#include "../layers/nn_interfaces.h"
 #include <vector>
 #include <memory>
 #include <random>
 #include <algorithm>
 #include <array>
-#include "nn_loss.h"
-#include "nn_optimizer.h"
+#include "../layers/nn_loss.h"
+#include "../layers/nn_optimizer.h"
 
 using utec::algebra::Tensor;
 

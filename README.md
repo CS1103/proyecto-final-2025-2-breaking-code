@@ -29,10 +29,8 @@
   * Mariano Sanchez Arce – 202410653 (Responsable de investigación teórica)
   * Mia Wood De La Fuente – 202410085 (Desarrollo de la arquitectura)
   * Sebastian Chahuara Galdos – 202410735 (Implementación del modelo)
-  * Alumno D – 209900004 (Pruebas y benchmarking)
-  * Alumno E – 209900005 (Documentación y demo)
-
-> *Nota: Reemplazar nombres y roles reales.*
+  * Romina Muñoz Portugal – 202410340 (Pruebas y benchmarking)
+  * Mia Dayhana Hurtado Vite – 202410245 (Documentación y demo)
 
 ---
 
@@ -40,7 +38,6 @@
 
 1. **Compilador**: GCC 11 o superior
 2. **Dependencias**:
-
    * CMake 3.18+
    * Eigen 3.4
    * \[Otra librería opcional]

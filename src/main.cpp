@@ -5,11 +5,11 @@
 #include <algorithm>
 #include <fstream>
 #include <memory>
-#include "tensor.h"
-#include "nn_dense.h"
-#include "nn_activation.h"
-#include "nn_optimizer.h"
-#include "nn_interfaces.h"
+#include "../tensor/tensor.h"
+#include "../layers/nn_dense.h"
+#include "../activations/nn_activation.h"
+#include "../layers/nn_optimizer.h"
+#include "../layers/nn_interfaces.h"
 
 using namespace std;
 

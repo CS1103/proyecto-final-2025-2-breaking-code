@@ -3,7 +3,6 @@
 
 #include "nn_interfaces.h"
 #include <cmath>
-#include "nn_loss.h"
 using utec::algebra::Tensor;
 namespace utec::neural_network {
 
