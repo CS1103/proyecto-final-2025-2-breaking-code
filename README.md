@@ -26,9 +26,9 @@
 * **Grupo**: `group_3_custom_name`
 * **Integrantes**:
 
-  * Alumno A – 209900001 (Responsable de investigación teórica)
-  * Alumno B – 209900002 (Desarrollo de la arquitectura)
-  * Alumno C – 209900003 (Implementación del modelo)
+  * Mariano Sanchez Arce – 202410653 (Responsable de investigación teórica)
+  * Mia Wood De La Fuente – 202410085 (Desarrollo de la arquitectura)
+  * Sebastian Chahuara Galdos – 202410735 (Implementación del modelo)
   * Alumno D – 209900004 (Pruebas y benchmarking)
   * Alumno E – 209900005 (Documentación y demo)
 
@@ -223,9 +223,9 @@ Las redes neuronales artificiales surgieron en 1943 con el modelo de neurona pro
 
 | Tarea                     | Miembro  | Rol                       |
 | ------------------------- | -------- | ------------------------- |
-| Investigación teórica     | Alumno A | Documentar bases teóricas |
-| Diseño de la arquitectura | Alumno B | UML y esquemas de clases  |
-| Implementación del modelo | Alumno C | Código C++ de la NN       |
+| Investigación teórica     | Mariano Sanchez | Documentar bases teóricas |
+| Diseño de la arquitectura | Mia Wood | UML y esquemas de clases  |
+| Implementación del modelo | Sebastian Chahuara | Código C++ de la NN       |
 | Pruebas y benchmarking    | Alumno D | Generación de métricas    |
 | Documentación y demo      | Alumno E | Tutorial y video demo     |
 
