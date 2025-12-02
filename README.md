@@ -23,7 +23,7 @@
 ### Datos generales
 
 * **Tema**: Redes Neuronales en AI
-* **Grupo**: `group_3_custom_name`
+* **Grupo**: `Breaking-code`
 * **Integrantes**:
 
   * Mariano Sanchez Arce – 202410653 (Responsable de investigación teórica)
@@ -46,16 +46,10 @@
    * \[Otra librería opcional]
 3. **Instalación**:
 
-   ```bash
-   git clone https://github.com/EJEMPLO/proyecto-final.git
-   cd proyecto-final
-   mkdir build && cd build
-   cmake ..
-   make
-   ```
-
-> *Ejemplo de repositorio y comandos, ajustar según proyecto.*
-
+```bash
+# Clonamos el branch "feat/shape-classifier" del repositorio principal
+git clone -b feat/shape-classifier https://github.com/CS1103/proyecto-final-2025-2-breaking-code
+```
 ---
 
 ### 1. Investigación teórica
