@@ -191,7 +191,7 @@ Las redes neuronales artificiales surgieron en 1943 con el modelo de neurona pro
 
 ### 3. Ejecución
 
-> **Demo de ejemplo**: Video/demo alojado en `docs/demo.mp4`.
+> **Demo de ejemplo**: Perdone profe, 2 de nuestro grupo no hicieron NADA, yo me rindo.
 > Pasos:
 >
 > 1. Preparar datos de entrenamiento (formato CSV).
